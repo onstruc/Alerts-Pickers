@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Appsido/Alerts-Pickers.git"
   s.license      = "MIT"
   s.author       = { "dillidon" => "dillidon@gmail.com" }
-  s.platform     = :ios, '11.0'
+  s.platform     = :ios, '9.3'
   s.swift_version = '4.0'
   s.source       = { :git => "https://github.com/Appsido/Alerts-Pickers.git", :tag => "#{s.version}" }
   s.source_files  = "Source/**/*.{swift}"
