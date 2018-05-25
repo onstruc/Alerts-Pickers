@@ -5,10 +5,7 @@ import Photos
 public typealias TelegramSelection = (TelegramSelectionType) -> ()
 
 public enum TelegramSelectionType {
-    
     case photo([PHAsset])
-    case location(Location?)
-    case contact(Contact?)
 }
 
 extension UIAlertController {
@@ -30,15 +27,13 @@ final public class TelegramPickerViewController: UIViewController {
 
     var buttons: [ButtonType] {
         return selectedAssets.count == 0
-            ? [.photoOrVideo, .location, .contact]
+            ? [.photoOrVideo]
             : [.sendPhotos]
     }
     
     enum ButtonType {
         case photoOrVideo
         case file
-        case location
-        case contact
         case sendPhotos
         case sendAsFile
     }
@@ -59,8 +54,6 @@ final public class TelegramPickerViewController: UIViewController {
         switch button {
         case .photoOrVideo: return "Photo or Video"
         case .file: return "File"
-        case .location: return "Location"
-        case .contact: return "Contact"
         case .sendPhotos: return "Send \(selectedAssets.count) \(selectedAssets.count == 1 ? "Photo" : "Photos")"
         case .sendAsFile: return "Send as File"
         }
@@ -101,7 +94,9 @@ final public class TelegramPickerViewController: UIViewController {
         $0.showsVerticalScrollIndicator = false
         $0.showsHorizontalScrollIndicator = false
         $0.decelerationRate = UIScrollViewDecelerationRateFast
-        $0.contentInsetAdjustmentBehavior = .never
+        if #available(iOS 11.0, *){
+            $0.contentInsetAdjustmentBehavior = .never
+        }
         $0.contentInset = UI.insets
         $0.backgroundColor = .clear
         $0.maskToBounds = false
@@ -211,7 +206,11 @@ final public class TelegramPickerViewController: UIViewController {
             let alert = UIAlertController(style: .alert, title: "Permission denied", message: "\(productName) does not have access to contacts. Please, allow the application to access to your photo library.")
             alert.addAction(title: "Settings", style: .destructive) { action in
                 if let settingsURL = URL(string: UIApplicationOpenSettingsURLString) {
-                    UIApplication.shared.open(settingsURL)
+                    if #available(iOS 10.0, *) {
+                        UIApplication.shared.open(settingsURL)
+                    } else {
+                        UIApplication.shared.openURL(settingsURL)
+                    }
                 }
             }
             alert.addAction(title: "OK", style: .cancel) { [unowned self] action in
@@ -271,17 +270,7 @@ final public class TelegramPickerViewController: UIViewController {
         case .file:
             
             break
-            
-        case .location:
-            alertController?.addLocationPicker { location in
-                self.selection?(TelegramSelectionType.location(location))
-            }
-            
-        case .contact:
-            alertController?.addContactsPicker { contact in
-                self.selection?(TelegramSelectionType.contact(contact))
-            }
-            
+
         case .sendPhotos:
             alertController?.dismiss(animated: true) { [unowned self] in
                 self.selection?(TelegramSelectionType.photo(self.selectedAssets))

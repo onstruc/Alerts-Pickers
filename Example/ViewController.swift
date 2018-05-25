@@ -306,24 +306,6 @@ class ViewController: UIViewController {
             alert.addAction(title: "Done", style: .cancel)
             alert.show()
             
-        case .countryPicker:
-            let alert = UIAlertController(style: self.alertStyle)
-            alert.addLocalePicker(type: .country) { info in Log(info) }
-            alert.addAction(title: "Cancel", style: .cancel)
-            alert.show()
-            
-        case .phoneCodePicker:
-            let alert = UIAlertController(style: self.alertStyle)
-            alert.addLocalePicker(type: .phoneCode) { info in Log(info) }
-            alert.addAction(title: "Cancel", style: .cancel)
-            alert.show()
-            
-        case .currencyPicker:
-            let alert = UIAlertController(style: self.alertStyle)
-            alert.addLocalePicker(type: .currency) { info in Log(info) }
-            alert.addAction(title: "Cancel", style: .cancel)
-            alert.show()
-            
         case .imagePicker:
             let photos: [UIImage] = [#imageLiteral(resourceName: "interior_design_1"), #imageLiteral(resourceName: "interior_design_2"), #imageLiteral(resourceName: "interior_design_3"), #imageLiteral(resourceName: "interior_design_4"), #imageLiteral(resourceName: "interior_design_5"), #imageLiteral(resourceName: "interior_design_8"), #imageLiteral(resourceName: "interior_design_9"), #imageLiteral(resourceName: "interior_design_10"), #imageLiteral(resourceName: "interior_design_11"), #imageLiteral(resourceName: "interior_design_12"), #imageLiteral(resourceName: "interior_design_13"), #imageLiteral(resourceName: "interior_design_14"), #imageLiteral(resourceName: "interior_design_15"), #imageLiteral(resourceName: "interior_design_16"), #imageLiteral(resourceName: "interior_design_17"), #imageLiteral(resourceName: "interior_design_18"), #imageLiteral(resourceName: "interior_design_19"), #imageLiteral(resourceName: "interior_design_20"), #imageLiteral(resourceName: "interior_design_21"), #imageLiteral(resourceName: "interior_design_22"), #imageLiteral(resourceName: "interior_design_23"), #imageLiteral(resourceName: "interior_design_24"), #imageLiteral(resourceName: "interior_design_25"), #imageLiteral(resourceName: "interior_design_26"), #imageLiteral(resourceName: "interior_design_27"), #imageLiteral(resourceName: "interior_design_28"), #imageLiteral(resourceName: "interior_design_29"), #imageLiteral(resourceName: "interior_design_30"), #imageLiteral(resourceName: "interior_design_31"), #imageLiteral(resourceName: "interior_design_32"), #imageLiteral(resourceName: "interior_design_33"), #imageLiteral(resourceName: "interior_design_34"), #imageLiteral(resourceName: "interior_design_35"), #imageLiteral(resourceName: "interior_design_36"), #imageLiteral(resourceName: "interior_design_37"), #imageLiteral(resourceName: "interior_design_38"), #imageLiteral(resourceName: "interior_design_39")]
             
@@ -374,33 +356,19 @@ class ViewController: UIViewController {
             alert.addTextViewer(text: .attributedText(text))
             alert.addAction(title: "OK", style: .cancel)
             alert.show()
-            
-        case .contactsPicker:
-            let alert = UIAlertController(style: self.alertStyle)
-            alert.addContactsPicker { contact in Log(contact) }
-            alert.addAction(title: "Cancel", style: .cancel)
-            alert.show()
-            
-        case .locationPicker:
-            let alert = UIAlertController(style: self.alertStyle)
-            alert.addLocationPicker { location in Log(location) }
-            alert.addAction(title: "Cancel", style: .cancel)
-            alert.show()
-            
+
         case .telegramPicker:
             let alert = UIAlertController(style: .actionSheet)
             alert.addTelegramPicker { result in
                 switch result {
                 case .photo(let assets):
                     Log(assets)
-                case .contact(let contact):
-                    Log(contact)
-                case .location(let location):
-                    Log(location)
                 }
             }
             alert.addAction(title: "Cancel", style: .cancel)
             alert.show()
+        default:
+            break
         }
     }
 }
