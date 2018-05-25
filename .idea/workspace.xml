@@ -1,478 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="025a888f-c5e1-473d-83cb-ae2d4a7d6db9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Pickers/CurrencyTableViewCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alerts&amp;Pickers.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Alerts&amp;Pickers.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Example/ViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Contacts/ContactsPickerViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Contacts/Managers/Contacts.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Contacts/Models/Contact.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Contacts/Views/ContactCell.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Data/CountryCodes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Afghanistan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Albania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Algeria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Andorra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Antigua-and-Barbuda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Argentina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Armenia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Aruba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Australia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Austria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Azerbaijan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bahamas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bahrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bangladesh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Barbados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Belarus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Belgium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Belize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Benin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bhutan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bolivia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bosnia-and-Herzegovina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Botswana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Brazil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Brunei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Bulgaria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Burkina-Faso.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Burundi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cambodia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cameroon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Canada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cape-Verde.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Central-African-Republic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Chad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Chile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/China.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Colombia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Comoros.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Congo-(Democratic).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Congo-(Republic).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Costa-Rica.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cote-d'Ivoire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Croatia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cuba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Cyprus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Czech Republic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Denmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Djibouti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Dominica.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Dominican-Republic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/East-Timor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Ecuador.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Egypt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/El-Salvador.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Equatorial-Guinea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Eritrea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Estonia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Ethiopia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Europe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Fiji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Finland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/France.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Gabon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Gambia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Georgia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Germany.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Ghana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Grecee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Grenada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Guatemala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Guinea-Bissau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Guinea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Guyana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Haiti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Honduras.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Hungary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Iceland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/India.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Indonesia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Iran.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Iraq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Ireland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Israel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Italy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Jamaica.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Japan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Jordan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kazakhstan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kenya.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kiribati.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Korea,-North.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kosovo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kuwait.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Kyrgyzstan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Laos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Latvia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Lebanon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Lesotho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Liberia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Libya.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Liechtenstein.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Lithuania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Luxembourg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Macedonia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Madagascar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Malawi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Malaysia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Maldives.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mali.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Malta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Marshall-Islands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mauritania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mauritius.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mexico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Micronesia-(Federated).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Moldova.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Monaco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mongolia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Montenegro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Morocco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Mozambique.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Myanmar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Namibia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Nauru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Nepal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Netherlands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/New Zealand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Nicaragua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Niger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Nigeria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Norway.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Oman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Pakistan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Palau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Panama.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Papua-New-Guinea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Paraguay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Peru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Philippines.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Poland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Portugal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Qatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Romania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Russia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Rwanda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Kitts-and-Nevis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Lucia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Vincent-and-the-Grenadines.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Samoa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/San-Marino.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Sao-Tome-and-Principe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Saudi-Arabia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Senegal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Serbia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Seychelles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Sierra-Leone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Singapore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Slovakia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Slovenia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Solomon-Islands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Somalia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/South Africa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/South Korea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/South-Sudan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Spain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Sri-Lanka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Sudan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Suriname.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Swaziland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Sweden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Switzerland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Syria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Taiwan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Tajikistan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Tanzania.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Thailand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Togo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Tonga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Trinidad-and-Tobago.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Tunisia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Turkey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Turkmenistan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Tuvalu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Uganda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Ukraine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/United Kingdom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/United States of America.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/United-Arab-Emirates.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Uruguay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Uzbekistan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Vanuatu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Vatican-City.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Venezuela.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Vietnam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Yemen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Zambia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Flags/Zimbabwe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/AZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/BZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/CZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/DZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/EC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/EE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/EG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/EH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ER.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ET.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/FX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/GY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/HU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ID.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/IT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/JE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/JM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/JO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/JP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/KZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/LY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ME.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/MZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/NZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/OM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/PY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/QA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/RE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/RO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/RS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/RU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/RW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ST.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/SZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/TZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/UG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/UM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/US.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/UY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/UZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/VU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/WF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/WS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/XK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/YE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/YT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/YU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ZA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ZM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Countries.bundle/Images/ZW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/LocalePickerViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Managers/LocaleStore.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Models/LocaleInfo.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Views/CountryCell.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Views/CurrencyCell.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Locale/Views/PhoneCodeCell.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Location/LocationPickerViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Location/LocationSearchResultsViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Location/Managers/SearchHistoryManager.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Location/Models/Address.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Pickers/Location/Models/Location.swift" beforeDir="false" />
-    </list>
+    <list default="true" id="025a888f-c5e1-473d-83cb-ae2d4a7d6db9" name="Default" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/Alerts&amp;Pickers-dmhcyaqlzjgbsofyptkfzxsnjypx/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -481,7 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_b4f2266089219190fedc1e40334b9efd8b9b10f5" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ItemWithImage.swift" pinned="false" current-in-tab="false">
@@ -506,7 +35,16 @@
         <entry file="file://$PROJECT_DIR$/Source/Pickers/Image/ImagePickerViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoLibraryPickerViewController.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/Pickers/PhotoLibrary/PhotoLibraryPickerViewController.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="188" column="50" selection-start-line="188" selection-end-line="189" />
             </state>
           </provider>
         </entry>
@@ -514,17 +52,26 @@
       <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="379" column="19" lean-forward="true" selection-start-line="379" selection-start-column="19" selection-end-line="379" selection-end-column="19" />
+            <state relative-caret-position="268">
+              <caret line="365" selection-start-line="365" selection-end-line="365" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TelegramPickerViewController.swift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TelegramPickerViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Pickers/Telegram/TelegramPickerViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="152">
+              <caret line="200" column="13" lean-forward="true" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RLBAlertsPickers.podspec" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RLBAlertsPickers.podspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -538,7 +85,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/Pickers/CurrencyTableViewCell.swift" />
+        <option value="$PROJECT_DIR$/Source/Pickers/Image/ImagePickerViewController.swift" />
+        <option value="$PROJECT_DIR$/Source/Pickers/PhotoLibrary/PhotoLibraryPickerViewController.swift" />
         <option value="$PROJECT_DIR$/Example/ViewController.swift" />
+        <option value="$PROJECT_DIR$/Source/Pickers/Telegram/TelegramPickerViewController.swift" />
       </list>
     </option>
   </component>
@@ -558,7 +108,7 @@
     <option name="height" value="1354" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Cidr.FilesView" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -617,7 +167,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
+      <pane id="Cidr.FilesView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Alerts&amp;Pickers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alerts-Pickers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -650,24 +210,23 @@
       <option name="presentableId" value="Default" />
       <updated>1527286033245</updated>
       <workItem from="1527286034573" duration="162000" />
-      <workItem from="1527286244262" duration="298000" />
+      <workItem from="1527286244262" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460000" />
+    <option name="totallyTimeSpent" value="702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1354" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="2560" height="1354" extended-state="6" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3293556" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293556" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -706,21 +265,35 @@
     <entry file="file://$PROJECT_DIR$/Source/Pickers/Image/ImagePickerViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Pickers/PhotoLibrary/PhotoLibraryPickerViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="188" column="50" selection-start-line="188" selection-end-line="189" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="379" column="19" lean-forward="true" selection-start-line="379" selection-start-column="19" selection-end-line="379" selection-end-column="19" />
+        <state relative-caret-position="268">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Pickers/Telegram/TelegramPickerViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="152">
+          <caret line="200" column="13" lean-forward="true" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RLBAlertsPickers.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
