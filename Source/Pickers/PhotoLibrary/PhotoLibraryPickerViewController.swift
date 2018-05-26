@@ -17,7 +17,7 @@ extension UIAlertController {
         var asset: PHAsset?
         var assets: [PHAsset] = []
         
-        let buttonAdd = UIAlertAction(title: "Add", style: .default) { action in
+        let buttonAdd = UIAlertAction(title: "Upload", style: .default) { action in
             switch selection {
                 
             case .single(let action):
