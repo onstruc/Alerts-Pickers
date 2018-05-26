@@ -86,46 +86,61 @@ final public class TelegramPickerViewController: UIViewController {
     }
     
     // MARK: Properties
-
-    fileprivate lazy var collectionView: UICollectionView = { [unowned self] in
-        $0.dataSource = self
-        $0.delegate = self
-        $0.allowsMultipleSelection = true
-        $0.showsVerticalScrollIndicator = false
-        $0.showsHorizontalScrollIndicator = false
-        $0.decelerationRate = UIScrollViewDecelerationRateFast
-        if #available(iOS 11.0, *){
-            $0.contentInsetAdjustmentBehavior = .never
+    private var fCollectionView: UICollectionView?
+    fileprivate var collectionView: UICollectionView  {
+        if(fCollectionView == nil){
+            fCollectionView = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
+            fCollectionView!.dataSource = self
+            fCollectionView!.delegate = self
+            fCollectionView!.allowsMultipleSelection = true
+            fCollectionView!.showsVerticalScrollIndicator = false
+            fCollectionView!.showsHorizontalScrollIndicator = false
+            fCollectionView!.decelerationRate = UIScrollViewDecelerationRateFast
+            if #available(iOS 11.0, *){
+                fCollectionView!.contentInsetAdjustmentBehavior = .never
+            }
+            fCollectionView!.contentInset = UI.insets
+            fCollectionView!.backgroundColor = .clear
+            fCollectionView!.maskToBounds = false
+            fCollectionView!.clipsToBounds = false
+            fCollectionView!.register(ItemWithPhoto.self, forCellWithReuseIdentifier: String(describing: ItemWithPhoto.self))
         }
-        $0.contentInset = UI.insets
-        $0.backgroundColor = .clear
-        $0.maskToBounds = false
-        $0.clipsToBounds = false
-        $0.register(ItemWithPhoto.self, forCellWithReuseIdentifier: String(describing: ItemWithPhoto.self))
-        
-        return $0
-        }(UICollectionView(frame: .zero, collectionViewLayout: layout))
+        return fCollectionView!
+    }
     
-    fileprivate lazy var layout: PhotoLayout = { [unowned self] in
-        $0.delegate = self
-        $0.lineSpacing = UI.minimumLineSpacing
-        return $0
-        }(PhotoLayout())
+    private var fLayout: PhotoLayout?
+    fileprivate var layout: PhotoLayout {
+        get {
+            if(fLayout == nil){
+                fLayout = PhotoLayout()
+                fLayout!.delegate = self
+                fLayout!.lineSpacing = UI.minimumLineSpacing
+            }
+            return fLayout!
+        }
+    }
     
-    fileprivate lazy var tableView: UITableView = { [unowned self] in
-        $0.dataSource = self
-        $0.delegate = self
-        $0.rowHeight = UI.rowHeight
-        $0.separatorColor = UIColor.lightGray.withAlphaComponent(0.4)
-        $0.separatorInset = .zero
-        $0.backgroundColor = nil
-        $0.bounces = false
-        $0.tableHeaderView = collectionView
-        $0.tableFooterView = UIView()
-        $0.register(LikeButtonCell.self, forCellReuseIdentifier: LikeButtonCell.identifier)
-        
-        return $0
-        }(UITableView(frame: .zero, style: .plain))
+    private var fTableView: UITableView?
+    fileprivate var tableView: UITableView {
+        get{
+            if(fTableView == nil){
+                fTableView = UITableView.init(frame: .zero, style: .plain)
+                fTableView!.dataSource = self
+                fTableView!.delegate = self
+                fTableView!.rowHeight = UI.rowHeight
+                fTableView!.separatorColor = UIColor.lightGray.withAlphaComponent(0.4)
+                fTableView!.separatorInset = .zero
+                fTableView!.backgroundColor = nil
+                fTableView!.bounces = false
+                fTableView!.tableHeaderView = collectionView
+                fTableView!.tableFooterView = UIView()
+                fTableView!.register(LikeButtonCell.self, forCellReuseIdentifier: LikeButtonCell.identifier)
+
+            }
+            return fTableView!
+        }
+    }
+    
     
     lazy var assets = [PHAsset]()
     lazy var selectedAssets = [PHAsset]()

@@ -106,7 +106,7 @@ extension UIAlertController {
     
     func setTitle(font: UIFont, color: UIColor) {
         guard let title = self.title else { return }
-        let attributes: [NSAttributedStringKey: Any] = [.font: font, .foregroundColor: color]
+        let attributes: [String: Any] = [NSFontAttributeName: font, NSForegroundColorAttributeName: color]
         let attributedTitle = NSMutableAttributedString(string: title, attributes: attributes)
         setValue(attributedTitle, forKey: "attributedTitle")
     }
@@ -126,7 +126,7 @@ extension UIAlertController {
     
     func setMessage(font: UIFont, color: UIColor) {
         guard let message = self.message else { return }
-        let attributes: [NSAttributedStringKey: Any] = [.font: font, .foregroundColor: color]
+        let attributes: [String: Any] = [NSFontAttributeName: font, NSForegroundColorAttributeName: color]
         let attributedMessage = NSMutableAttributedString(string: message, attributes: attributes)
         setValue(attributedMessage, forKey: "attributedMessage")
     }

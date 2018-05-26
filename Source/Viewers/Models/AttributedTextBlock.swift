@@ -11,24 +11,24 @@ public enum AttributedTextBlock {
         let attributedString: NSMutableAttributedString
         switch self {
         case .header1(let value):
-            let attributes: [NSAttributedStringKey: Any] = [.font: UIFont.boldSystemFont(ofSize: 20), .foregroundColor: UIColor.black]
-            attributedString = NSMutableAttributedString(string: value, attributes: attributes)
+            let attributes: [String: Any] = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 20), NSForegroundColorAttributeName: UIColor.black]
+            attributedString = NSMutableAttributedString(string: value, attributes: attributes as [String : Any])
         case .header2(let value):
-            let attributes: [NSAttributedStringKey: Any] = [.font: UIFont.boldSystemFont(ofSize: 18), .foregroundColor: UIColor.black]
-            attributedString = NSMutableAttributedString(string: value, attributes: attributes)
+            let attributes: [String: Any] = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18), NSForegroundColorAttributeName: UIColor.black]
+            attributedString = NSMutableAttributedString(string: value, attributes: attributes as [String : Any])
         case .normal(let value):
-            let attributes: [NSAttributedStringKey: Any] = [.font: UIFont.systemFont(ofSize: 15), .foregroundColor: UIColor.black]
-            attributedString = NSMutableAttributedString(string: value, attributes: attributes)
+            let attributes: [String: Any] = [NSFontAttributeName: UIFont.systemFont(ofSize: 15), NSForegroundColorAttributeName: UIColor.black]
+            attributedString = NSMutableAttributedString(string: value, attributes: attributes as [String : Any])
         case .list(let value):
-            let attributes: [NSAttributedStringKey: Any] = [.font: UIFont.systemFont(ofSize: 15), .foregroundColor: UIColor.black]
-            attributedString = NSMutableAttributedString(string: "∙ " + value, attributes: attributes)
+            let attributes: [String: Any] = [NSFontAttributeName: UIFont.systemFont(ofSize: 15), NSForegroundColorAttributeName: UIColor.black]
+            attributedString = NSMutableAttributedString(string: "∙ " + value, attributes: attributes as [String : Any])
         }
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 2
         paragraphStyle.lineHeightMultiple = 1
         paragraphStyle.paragraphSpacing = 10
         
-        attributedString.addAttribute(.paragraphStyle, value: paragraphStyle, range:NSMakeRange(0, attributedString.length))
+        attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range:NSMakeRange(0, attributedString.length))
         return attributedString
     }
 }

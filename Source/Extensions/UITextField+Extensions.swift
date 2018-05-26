@@ -49,11 +49,11 @@ public extension UITextField {
     ///
     /// - Parameter color: placeholder text color.
     public func setPlaceHolderTextColor(_ color: UIColor) {
-        self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedStringKey.foregroundColor: color])
+        self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSForegroundColorAttributeName: color])
     }
     
     /// Set placeholder text and its color
     func placeholder(text value: String, color: UIColor = .red) {
-        self.attributedPlaceholder = NSAttributedString(string: value, attributes: [ NSAttributedStringKey.foregroundColor : color])
+        self.attributedPlaceholder = NSAttributedString(string: value, attributes: [ NSForegroundColorAttributeName : color])
     }
 }

@@ -34,9 +34,9 @@ public struct Assets {
             
             if fetchResult.count > 0 {
                 var assets = [PHAsset]()
-                fetchResult.enumerateObjects { object, _, _ in
+                fetchResult.enumerateObjects({ (object, _, _) in
                     assets.insert(object, at: 0)
-                }
+                })
                 
                 DispatchQueue.main.async {
                     completion(FetchResults.success(response: assets))

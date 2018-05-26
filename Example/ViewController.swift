@@ -113,36 +113,7 @@ class ViewController: UIViewController {
         $0.tintColor = UIColor(hex: 0xFF2DC6)//UIColor(hex: 0x3C3C3C)
         return $0
     }(SegmentedControl())
-    
-    fileprivate lazy var collectionView: UICollectionView = { [unowned self] in
-        $0.dataSource = self
-        $0.delegate = self
-        $0.register(TypeOneCell.self, forCellWithReuseIdentifier: TypeOneCell.identifier)
-        $0.showsVerticalScrollIndicator = false
-        $0.showsHorizontalScrollIndicator = false
-        $0.decelerationRate = UIScrollViewDecelerationRateFast
-        //$0.contentInsetAdjustmentBehavior = .never
-        $0.bounces = true
-        $0.backgroundColor = .white
-        //$0.maskToBounds = false
-        //$0.clipsToBounds = false
-        $0.contentInset.bottom = UI.itemHeight
-        return $0
-        }(UICollectionView(frame: .zero, collectionViewLayout: layout))
-    
-    fileprivate lazy var layout: VerticalScrollFlowLayout = {
-        $0.minimumLineSpacing = UI.lineSpacing
-        $0.sectionInset = UIEdgeInsets(top: UI.topInset, left: 0, bottom: 0, right: 0)
-        $0.itemSize = itemSize
         
-        return $0
-    }(VerticalScrollFlowLayout())
-    
-    fileprivate var itemSize: CGSize {
-        let width = UIScreen.main.bounds.width - 2 * UI.xInset
-        return CGSize(width: width, height: UI.itemHeight)
-    }
-    
     // MARK: Initialize
     
     required init() {
@@ -156,7 +127,6 @@ class ViewController: UIViewController {
     // MARK: ViewController LifeCycle
     
     override func loadView() {
-        view = collectionView
     }
     
     override func viewDidLoad() {
@@ -174,9 +144,6 @@ class ViewController: UIViewController {
             //navigationItem.largeTitleDisplayMode = .always
         }
         
-        layout.itemSize = itemSize
-        collectionView.collectionViewLayout.invalidateLayout()
-        collectionView.reloadData()
         
         navigationItem.titleView = segments
         alertStyle = .actionSheet

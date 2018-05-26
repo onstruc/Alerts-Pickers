@@ -89,30 +89,39 @@ final public class PhotoLibraryPickerViewController: UIViewController {
     }
     
     // MARK: Properties
-    
-    fileprivate lazy var collectionView: UICollectionView = { [unowned self] in
-        $0.dataSource = self
-        $0.delegate = self
-        $0.register(ItemWithImage.self, forCellWithReuseIdentifier: String(describing: ItemWithImage.self))
-        $0.showsVerticalScrollIndicator = false
-        $0.showsHorizontalScrollIndicator = false
-        $0.decelerationRate = UIScrollViewDecelerationRateFast
-        if #available(iOS 11.0, *) {
-            $0.contentInsetAdjustmentBehavior = .always
+    private var fCollectionView: UICollectionView?
+    fileprivate var collectionView: UICollectionView  {
+        if(fCollectionView == nil){
+            fCollectionView = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
+            fCollectionView!.dataSource = self
+            fCollectionView!.delegate = self
+            fCollectionView!.register(ItemWithImage.self, forCellWithReuseIdentifier: String(describing: ItemWithImage.self))
+            fCollectionView!.showsVerticalScrollIndicator = false
+            fCollectionView!.showsHorizontalScrollIndicator = false
+            fCollectionView!.decelerationRate = UIScrollViewDecelerationRateFast
+            if #available(iOS 11.0, *) {
+                fCollectionView!.contentInsetAdjustmentBehavior = .always
+            }
+            fCollectionView!.bounces = true
+            fCollectionView!.backgroundColor = .clear
+            fCollectionView!.maskToBounds = false
+            fCollectionView!.clipsToBounds = false
         }
-        $0.bounces = true
-        $0.backgroundColor = .clear
-        $0.maskToBounds = false
-        $0.clipsToBounds = false
-        return $0
-        }(UICollectionView(frame: .zero, collectionViewLayout: layout))
+        return fCollectionView!
+        }
     
-    fileprivate lazy var layout: UICollectionViewFlowLayout = {
-        $0.minimumInteritemSpacing = 0
-        $0.minimumLineSpacing = 0
-        $0.sectionInset = .zero
-        return $0
-    }(UICollectionViewFlowLayout())
+    private var fLayout: UICollectionViewFlowLayout?
+    fileprivate var layout: UICollectionViewFlowLayout {
+        get {
+            if(fLayout == nil){
+                fLayout = UICollectionViewFlowLayout()
+                fLayout!.minimumInteritemSpacing = 0
+                fLayout!.minimumLineSpacing = 0
+                fLayout!.sectionInset = .zero
+            }
+            return fLayout!
+        }
+    }
 
     fileprivate var selection: Selection?
     fileprivate var assets: [PHAsset] = []
