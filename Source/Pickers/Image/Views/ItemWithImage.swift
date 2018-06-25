@@ -28,7 +28,7 @@ class ItemWithImage: UICollectionViewCell {
     }(UIView())
     
     lazy var selectedPoint: UIView = {
-        $0.backgroundColor = UIColor(hex: 0x007AFF)
+        $0.backgroundColor = UIColor.blue
         return $0
     }(UIView())
     
