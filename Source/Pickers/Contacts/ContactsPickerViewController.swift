@@ -170,7 +170,11 @@ final public class ContactsPickerViewController: UIViewController {
             let alert = UIAlertController(title: "Permission denied", message: "\(productName) does not have access to contacts. Please, allow the application to access to your contacts.", preferredStyle: .alert)
             alert.addAction(title: "Settings", style: .destructive) { action in
                 if let settingsURL = URL(string: UIApplication.openSettingsURLString) {
-                    UIApplication.shared.open(settingsURL)
+                    if #available(iOS 10.0, *) {
+                        UIApplication.shared.open(settingsURL)
+                    } else {
+                        // Fallback on earlier versions
+                    }
                 }
             }
             alert.addAction(title: "OK", style: .cancel) { [unowned self] action in
@@ -181,20 +185,24 @@ final public class ContactsPickerViewController: UIViewController {
     }
     
     func fetchContacts(completionHandler: @escaping ([String: [CNContact]]) -> ()) {
-        Contacts.fetchContactsGroupedByAlphabets { [unowned self] result in
-            switch result {
-                
-            case .success(let orderedContacts):
-                completionHandler(orderedContacts)
-                
-            case .error(let error):
-                Log("------ error")
-                let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
-                alert.addAction(title: "OK") { [unowned self] action in
-                    self.alertController?.dismiss(animated: true)
+        if #available(iOS 10.0, *) {
+            Contacts.fetchContactsGroupedByAlphabets { [unowned self] result in
+                switch result {
+                    
+                case .success(let orderedContacts):
+                    completionHandler(orderedContacts)
+                    
+                case .error(let error):
+                    Log("------ error")
+                    let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                    alert.addAction(title: "OK") { [unowned self] action in
+                        self.alertController?.dismiss(animated: true)
+                    }
+                    alert.show()
                 }
-                alert.show()
             }
+        } else {
+            // Fallback on earlier versions
         }
     }
     
