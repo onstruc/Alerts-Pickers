@@ -43,7 +43,7 @@ extension UIImageView {
         if let text = text {
             let attributes: [NSAttributedString.Key: Any] = textAttributes ?? [.foregroundColor: UIColor.white, .font: UIFont.systemFont(ofSize: 15.0)]
 
-            let textSize = text.size(attributes: attributes)
+            let textSize = text.size(withAttributes: attributes)
             let bounds = self.bounds
             let rect = CGRect(x: bounds.size.width/2 - textSize.width/2, y: bounds.size.height/2 - textSize.height/2, width: textSize.width, height: textSize.height)
 
@@ -96,12 +96,12 @@ extension UIImageView {
         setImageForName(string: string, backgroundColor: backgroundColor, circular: circular, textAttributes: textAttributes, gradient: gradient, gradientColors: nil)
     }
 
-    public func setImageForName(string: String, gradientColors: GradientColors? = nil, circular: Bool = true, textAttributes: [NSAttributedString.Key: AnyObject]? = nil) {
+    func setImageForName(string: String, gradientColors: GradientColors? = nil, circular: Bool = true, textAttributes: [NSAttributedString.Key: AnyObject]? = nil) {
 
         setImageForName(string: string, backgroundColor: nil, circular: circular, textAttributes: textAttributes, gradient: true, gradientColors: gradientColors)
     }
 
-    public func setImageForName(string: String, backgroundColor: UIColor? = nil, circular: Bool, textAttributes: [NSAttributedString.Key: AnyObject]? = nil, gradient: Bool = false, gradientColors: GradientColors? = nil) {
+    func setImageForName(string: String, backgroundColor: UIColor? = nil, circular: Bool, textAttributes: [NSAttributedString.Key: AnyObject]? = nil, gradient: Bool = false, gradientColors: GradientColors? = nil) {
 
         let initials: String = initialsFromString(string: string)
         let color: UIColor = (backgroundColor != nil) ? backgroundColor! : randomColor(for: string)
@@ -168,14 +168,14 @@ extension UIImageView {
         }
 
         // Draw text in the context
-        let textSize: CGSize = imageText.size(attributes: textAttributes)
+        let textSize: CGSize = imageText.size(withAttributes: textAttributes)
         let bounds: CGRect = self.bounds
 
         imageText.draw(in: CGRect(x: bounds.midX - textSize.width / 2,
                                   y: bounds.midY - textSize.height / 2,
                                   width: textSize.width,
                                   height: textSize.height),
-                       withAttributes: textAttributes as [String : Any])
+                       withAttributes: textAttributes as [NSAttributedString.Key : Any])
 
         let snapshot: UIImage = UIGraphicsGetImageFromCurrentImageContext()!;
         UIGraphicsEndImageContext();
