@@ -148,43 +148,6 @@ final public class LocalePickerViewController: UIViewController {
     
     func updateInfo() {
         indicatorView.startAnimating()
-        
-        LocaleStore.fetch { [unowned self] result in
-            switch result {
-                
-            case .success(let orderedInfo):
-                let data: [String: [LocaleInfo]] = orderedInfo
-                /*
-                 switch self.type {
-                 case .currency:
-                 data = data.filter { i in
-                 guard let code = i.currencyCode else { return false }
-                 return Locale.commonISOCurrencyCodes.contains(code)
-                 }.sorted { $0.currencyCode < $1.currencyCode }
-                 default: break }
-                 */
-                
-                self.orderedInfo = data
-                self.sortedInfoKeys = Array(self.orderedInfo.keys).sorted(by: <)
-                
-                DispatchQueue.main.async {
-                    self.indicatorView.stopAnimating()
-                    self.tableView.reloadData()
-                }
-                
-            case .error(let error):
-                
-                DispatchQueue.main.async {
-                    
-                    let alert = UIAlertController(title: error.title, message: error.message, preferredStyle: .alert)
-                    alert.addAction(title: "OK", style: .cancel) { action in
-                        self.indicatorView.stopAnimating()
-                        self.alertController?.dismiss(animated: true)
-                    }
-                    alert.show()
-                }
-            }
-        }
     }
     
     func sortFilteredInfo() {
