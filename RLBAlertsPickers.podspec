@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
 
+<<<<<<< HEAD
   s.name         = "RLBAlertsPickers"
   s.version      = "1.0"
   s.summary      = "Advanced usage of UIAlertController with TextField, DatePicker, PickerView, TableView and CollectionView."
@@ -19,5 +20,21 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Appsido/Alerts-Pickers.git", :tag => "#{s.version}" }
   s.source_files  = "Source/**/*.{swift}"
   s.resource  = "Source/Pickers/Locale/Countries.bundle"
+=======
+  s.name         = 'RLBAlertsPickers'
+  s.version      = '1.1.1'
+  s.summary      = 'Advanced usage of UIAlertController with TextField, DatePicker, PickerView, TableView and CollectionView adapted for using in DialogSDK'
+  s.homepage     = 'https://github.com/loicgriffie/Alerts-Pickers'
+  s.license      = 'MIT'
+  s.author       = { 'dillidon' => 'dillidon@gmail.com' }
+  s.platform     = :ios, '10.0'
+  s.swift_version = '4.2'
+  s.source       = { :git => 'https://github.com/loicgriffie/Alerts-Pickers.git', :tag => s.version }
+  s.source_files  = 'Source/**/*.{swift}'
+  s.resource_bundles  = {
+    'Countries' => 'Source/Pickers/Locale/Countries.bundle/**'
+  }
+  s.resources = 'Example/Resources/*.xcassets'
+>>>>>>> 5ce7637f4c8d5118442f1a9ae781020fa80fccb9
 
 end
