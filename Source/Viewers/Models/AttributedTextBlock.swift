@@ -28,7 +28,7 @@ public enum AttributedTextBlock {
         paragraphStyle.lineHeightMultiple = 1
         paragraphStyle.paragraphSpacing = 10
 
-        attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range:NSMakeRange(0, attributedString.length))
+        attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range:NSMakeRange(0, attributedString.length))
         return attributedString
     }
 }
