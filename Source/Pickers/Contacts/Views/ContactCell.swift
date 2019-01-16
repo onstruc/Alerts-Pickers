@@ -56,7 +56,7 @@ final class ContactTableViewCell: UITableViewCell {
         if let ava = contact.image {
             imageView?.image = ava
         } else {
-            imageView?.setImageForName(string: contact.displayName, circular: true, gradient: true)
+            imageView?.setImageForName(string: contact.displayName, gradient: true, circular: true)
         }
         
         textLabel?.text = contact.displayName
