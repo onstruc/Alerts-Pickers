@@ -231,3 +231,4 @@ private func topAndBottomColors(for color: UIColor, withTopHSVOffset topHSVOffse
     let bottomColor = correctColorComponents(of: color, withHSVOffset: bottomHSVOffset)
     return (top: topColor, bottom: bottomColor)
 }
+  
