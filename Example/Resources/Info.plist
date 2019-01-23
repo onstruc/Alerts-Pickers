@@ -24,6 +24,8 @@
 	<string>$(PRODUCT_NAME) lets you make beautiful photos of your property or market items. It needs access to the Camera.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>$(PRODUCT_NAME) lets you keep track of interesting places. It needs access to the GPS coordinates for your location.</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) needs access to the Photo Library to let you add photos from your Photo Library.</string>
 	<key>UILaunchStoryboardName</key>
