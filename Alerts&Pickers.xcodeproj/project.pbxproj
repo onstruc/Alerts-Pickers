@@ -66,7 +66,6 @@
 		65CFE7AA21EBDE5600A51361 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */; };
 		65CFE7AB21EBDE5600A51361 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5CA3201DEE0B00CCE04D /* UIApplication+Extensions.swift */; };
 		65CFE7AC21EBDE5600A51361 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5CA5201DEE9C00CCE04D /* UIViewController+Extensions.swift */; };
-		65CFE7AD21EBDE5600A51361 /* CLPlacemark+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77815DC2166A20500DA6613 /* CLPlacemark+Extensions.swift */; };
 		65CFE7AE21EBDE5600A51361 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7636E47216FB7FB0063BCDB /* UIView+Extensions.swift */; };
 		65CFE7AF21EBDE5600A51361 /* PHFetchResult+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5365E21807D2000C7B69A /* PHFetchResult+Extensions.swift */; };
 		65CFE7B021EBDE5600A51361 /* AVCaptureSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D51A542167F205006455B6 /* AVCaptureSession+Extensions.swift */; };
@@ -97,7 +96,6 @@
 		65CFE7DC21EBDE5600A51361 /* PickerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F1C412179EE04000F866F /* PickerStyle.swift */; };
 		D725CCC8216CD16F001A6974 /* ExampleTelegramPickerLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725CCC7216CD16F001A6974 /* ExampleTelegramPickerLocalizer.swift */; };
 		D7636E48216FB7FB0063BCDB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7636E47216FB7FB0063BCDB /* UIView+Extensions.swift */; };
-		D77815DD2166A20500DA6613 /* CLPlacemark+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77815DC2166A20500DA6613 /* CLPlacemark+Extensions.swift */; };
 		D79100182195AF56003ADB1A /* AlertIconCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79100172195AF56003ADB1A /* AlertIconCollection.swift */; };
 		D7950F51217216CC005822F1 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7950F50217216CC005822F1 /* Bundle+Extensions.swift */; };
 		D7C5365F21807D2000C7B69A /* PHFetchResult+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5365E21807D2000C7B69A /* PHFetchResult+Extensions.swift */; };
@@ -192,7 +190,6 @@
 		65CFE76E21EBDE2A00A51361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D725CCC7216CD16F001A6974 /* ExampleTelegramPickerLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTelegramPickerLocalizer.swift; sourceTree = "<group>"; };
 		D7636E47216FB7FB0063BCDB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		D77815DC2166A20500DA6613 /* CLPlacemark+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extensions.swift"; sourceTree = "<group>"; };
 		D79100172195AF56003ADB1A /* AlertIconCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertIconCollection.swift; sourceTree = "<group>"; };
 		D7950F50217216CC005822F1 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		D7C5365E21807D2000C7B69A /* PHFetchResult+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHFetchResult+Extensions.swift"; sourceTree = "<group>"; };
@@ -454,7 +451,6 @@
 				FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */,
 				FAAB5CA3201DEE0B00CCE04D /* UIApplication+Extensions.swift */,
 				FAAB5CA5201DEE9C00CCE04D /* UIViewController+Extensions.swift */,
-				D77815DC2166A20500DA6613 /* CLPlacemark+Extensions.swift */,
 				D7636E47216FB7FB0063BCDB /* UIView+Extensions.swift */,
 				D7C5365E21807D2000C7B69A /* PHFetchResult+Extensions.swift */,
 				D7D51A542167F205006455B6 /* AVCaptureSession+Extensions.swift */,
@@ -776,7 +772,6 @@
 				65CFE7AA21EBDE5600A51361 /* UISearchBar+Extensions.swift in Sources */,
 				65CFE7AB21EBDE5600A51361 /* UIApplication+Extensions.swift in Sources */,
 				65CFE7AC21EBDE5600A51361 /* UIViewController+Extensions.swift in Sources */,
-				65CFE7AD21EBDE5600A51361 /* CLPlacemark+Extensions.swift in Sources */,
 				65CFE7AE21EBDE5600A51361 /* UIView+Extensions.swift in Sources */,
 				65CFE7AF21EBDE5600A51361 /* PHFetchResult+Extensions.swift in Sources */,
 				65CFE7B021EBDE5600A51361 /* AVCaptureSession+Extensions.swift in Sources */,
@@ -812,7 +807,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D77815DD2166A20500DA6613 /* CLPlacemark+Extensions.swift in Sources */,
 				FAAB5CA4201DEE0B00CCE04D /* UIApplication+Extensions.swift in Sources */,
 				F27C7E4E21771E5300266414 /* GalleryItemsDelegate.swift in Sources */,
 				F27C7E3821771E5300266414 /* GallerySwipeToDismissTransition.swift in Sources */,

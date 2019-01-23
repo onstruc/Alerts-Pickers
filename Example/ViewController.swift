@@ -326,7 +326,6 @@ class ViewController: UIViewController {
             alert.show()
         case .contactsPicker:
             let alert = UIAlertController(style: self.alertStyle)
-            alert.addContactsPicker { contact in Log(contact) }
             alert.addAction(title: "Cancel", style: .cancel)
             alert.show()
             
