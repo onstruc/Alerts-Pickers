@@ -11,6 +11,11 @@ extension UIAlertController {
         let textViewer = TextViewerViewController(text: text)
         set(vc: textViewer)
     }
+    
+    public func addTextViewer(attributedText: NSAttributedString) {
+        let textViewer = TextViewerViewController(attributedText: attributedText)
+        set(vc: textViewer)
+    }
 }
 
 final public class TextViewerViewController: UIViewController {
