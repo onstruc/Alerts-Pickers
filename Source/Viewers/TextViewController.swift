@@ -50,6 +50,14 @@ final public class TextViewerViewController: UIViewController {
         //preferredContentSize.height = self.textView.contentSize.height
     }
     
+    public init(attributedText: NSAttributedString) {
+        super.init(nibName: nil, bundle: nil)
+        
+        textView.attributedText = attributedText
+        textView.textContainerInset = UIEdgeInsets.init(top: UI.hInset, left: UI.vInset, bottom: UI.hInset, right: UI.vInset)
+        //preferredContentSize.height = self.textView.contentSize.height
+    }
+
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
