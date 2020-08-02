@@ -30,7 +30,7 @@ extension UIAlertController {
     }
 }
 
-public class ColorPickerViewController: UIViewController {
+public class ColorPickerViewControllerRLB: UIViewController {
     
     public typealias Selection = (UIColor) -> Swift.Void
     
