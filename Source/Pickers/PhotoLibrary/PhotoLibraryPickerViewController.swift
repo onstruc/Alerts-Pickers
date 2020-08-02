@@ -169,12 +169,6 @@ final public class PhotoLibraryPickerViewController: UIViewController {
                 self.checkStatus(completionHandler: completionHandler)
             }
 
-        case .authorized:
-            /// Authorization granted by user for this app.
-            DispatchQueue.main.async {
-                self.fetchPhotos(completionHandler: completionHandler)
-            }
-
         case .denied, .restricted:
             /// User has denied the current app to access the contacts.
             let productName = Bundle.main.dlgpicker_appName
@@ -192,6 +186,14 @@ final public class PhotoLibraryPickerViewController: UIViewController {
                 self.alertController?.dismiss(animated: true)
             }
             alert.show()
+            
+        default:
+            /// Authorization granted by user for this app.
+            DispatchQueue.main.async {
+                self.fetchPhotos(completionHandler: completionHandler)
+            }
+
+
         }
     }
 
