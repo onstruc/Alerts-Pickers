@@ -8,8 +8,8 @@ extension UIAlertController {
     ///   - color: input color
     ///   - action: for selected color
     
-    public func addColorPicker(color: UIColor = .black, selection: ColorPickerViewController.Selection?) {
-        let selection: ColorPickerViewController.Selection? = selection
+    public func addColorPicker(color: UIColor = .black, selection: ColorPickerViewControllerRLB.Selection?) {
+        let selection: ColorPickerViewControllerRLB.Selection? = selection
         var color: UIColor = color
         
         let buttonSelection = UIAlertAction(title: "Select", style: .default) { action in
@@ -18,7 +18,7 @@ extension UIAlertController {
         buttonSelection.isEnabled = true
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let vc = storyboard.instantiateViewController(withIdentifier: "ColorPicker") as? ColorPickerViewController else { return }
+        guard let vc = storyboard.instantiateViewController(withIdentifier: "ColorPicker") as? ColorPickerViewControllerRLB else { return }
         set(vc: vc)
         
         set(title: color.hexString, font: .systemFont(ofSize: 17), color: color)
